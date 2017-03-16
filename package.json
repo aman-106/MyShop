@@ -1,0 +1,27 @@
+{
+  "name": "connecttodb",
+  "version": "1.0.0",
+  "description": "connect to db",
+  "main": "connectDb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-specs": "mocha -R dot ./test/test.js",
+    "watch": "gulp watch",
+    "db": "mongoose "
+  },
+  "author": "amandeep",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.20",
+    "mongoose": "^4.7.8"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "http-status": "^1.0.1",
+    "wagner-core": "^0.2.0"
+  }
+}
